@@ -10,11 +10,7 @@
   margin-top: 7px;
   border-bottom: 1px solid #f1f1f1;
 }
-.main-title {
-        color: ##fafafc; /* H1 text to white */
-        font-weight: bold; /* Makes the text bold */
-        text-transform: uppercase; /* Converts the text to uppercase */
-}
+
 .main {
   float: left;
   width: 60%;
