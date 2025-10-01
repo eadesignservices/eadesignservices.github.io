@@ -1,14 +1,22 @@
 * {
   box-sizing: border-box;
 }
+
 .menu {
   float: left;
   width: 20%;
 }
+
 .menuitem {
   padding: 8px;
   margin-top: 7px;
   border-bottom: 1px solid #f1f1f1;
+}
+
+.header{
+	display: flex;
+	background-color:#090638;
+	padding:15px;
 }
 
 .main {
@@ -17,6 +25,7 @@
   padding: 0 20px;
   overflow: hidden;
 }
+
 .right {
   background-color: lightblue;
   float: left;
@@ -35,6 +44,7 @@
     width: 100%;
   }
 }
+
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .menu, .main, .right {
